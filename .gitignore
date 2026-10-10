@@ -1,0 +1,21 @@
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Audacity 产生的临时文件
+*.au
+*.tmp
+*.bak
+_audacity_*
+
+# 凭据（绝不要提交）
+*.token
+.env
+repogate.config.json
+
+# Python（分析脚本可能产生）
+__pycache__/
+*.pyc
